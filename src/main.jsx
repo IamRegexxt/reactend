@@ -10,8 +10,8 @@ import routers from './routers.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router = { routers }/>
-    <ThemeProvider>
-    <App />
-    </ThemeProvider>
+    {/* <ThemeProvider> */}
+    {/* <App /> */}
+    {/* </ThemeProvider> */}
   </React.StrictMode>
 )
