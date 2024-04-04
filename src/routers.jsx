@@ -4,21 +4,24 @@ import {
     createBrowserRouter,
     RouterProvider
   
-  } from 'react-router-dom';
-  import Login from './components/login';
+} from 'react-router-dom';
+import Login from './components/login';
+import Register from './components/register';
   //import Dashboard from './components/dashboard';
   
-  const routers = createBrowserRouter([
+const routers = createBrowserRouter([
   
     {
       path: '/login',
       element: <Login/>
   
     },
-    // {
-    //   path: '/dashboard',
-    //   element: <Dashboard/>
-    // }
-  
+
+    {
+
+      path: '/register',
+      element: <Register/>
+
+    },
   ])
 export default routers;
